@@ -16,7 +16,7 @@ echo substr($strWords, 9, 3) . '</br>';
 $str = 'html css php';
 $delimeter = ' ';
 $data = explode($delimeter, $str);
-print_r($data) . '</br>';
+print_r($data);
 
 //Task4
 $date = '18.02.1993';
@@ -36,7 +36,7 @@ echo array_search(3, $arrayByRange) . ' - это индекс элемента �
 //Task 8
 $arrayWithNumber = array(1,2,3);
 $arrayWithLetters = array('a', 'b', 'c');
-print_r(array_merge($arrayWithNumber, $arrayWithLetters)) . '</br>';
+print_r(array_merge($arrayWithNumber, $arrayWithLetters));
 
 //Task 9
 $arrayWithKeys = array('a' => 1, 'b' => 2, 'c' => 3);
